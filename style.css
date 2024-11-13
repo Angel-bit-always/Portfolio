@@ -1,0 +1,113 @@
+section {
+  margin: 0 40px;
+  background-image: url(fond.jpg);
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 34px;
+  background-color: rgb(0, 62, 128);
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 0 40px;
+}
+
+a {
+  color: white;
+}
+
+.presentation {
+  display: flex;
+  flex-direction: row;
+}
+
+.presentation div{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  padding: 50px;
+}
+
+/*
+.presentation p{
+  width: 200px;
+}
+*/
+
+.photo {
+  border-radius: 50%;
+  width: 50%;
+  /*justify-content: left;*/
+  margin: auto;
+  gap: 34px;
+}
+/*
+.pierre {
+  display: flex;
+  justify-content: right;
+  margin: auto;
+  gap: 34px;
+}
+*/
+h1 {
+  color: rgb(0, 62, 128);
+  font-size: 50px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+h2 {
+  color: rgb(55, 35, 187);
+  font-weight: bold;
+  font-family: "Rubik Wet Paint", system-ui;
+  justify-items: center;
+}
+
+h3 {
+  color: #0d0214;
+  font-weight: bold;
+  font-family: "Rubik Wet Paint", system-ui;
+  justify-items: center;
+}
+
+h4 {
+  color: #0d0214;
+  font-weight: bold;
+  font-family: "Rubik Wet Paint", system-ui;
+  justify-items: center;
+}
+
+ul {
+  color: #0d0214;
+
+  font-family: "Rubik Wet Paint", system-ui;
+  justify-items: center;
+}
+
+p {
+  color: #0d0214;
+  font-family: "Rubik Wet Paint", system-ui;
+  justify-items: center;
+}
+
+.bouton {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.envoyer {
+  background-color: rgb(23, 0, 128);
+  border: 3px solid white;
+  margin: 8px 10px;
+  padding: 8px 18px;
+  color: aliceblue;
+  border-radius: 5px;
+
+}
+
+
+button:hover {
+  background-color: rgb(0, 255, 251);
+}
